@@ -1,0 +1,253 @@
+/*  Theme HTML Template */
+
+@media only screen and (min-width: 768px){
+	.main-menu .navigation > li > ul,
+	.main-menu .navigation > li > ul > li > ul{
+		display:block !important;
+		visibility:hidden;
+		opacity:0;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.service-section .image-box img{
+		width: 100%;
+		margin-top: 115px!important;
+	}
+	.main-menu .navigation > li{
+		margin-right: 45px!important;
+	}
+}
+@media only screen and (max-width: 991px){
+	.main-header{
+		top: 140px !important;
+	}
+	.fixed-header{
+		top: 0px !important;
+	}
+	.main-header .header-area .search-box{
+		position: absolute !important;
+    	margin-top: -115px !important;
+    	right: 0px;
+	}
+	.header-top .contact-links{
+		float: left !important;
+		text-align: center;
+	}
+	.service-form form input{
+		margin-left: 0px!important;
+		margin-bottom: 20px!important;
+		margin-right: 20px!important;
+	}
+	.about-section .tab-box {
+	    margin-bottom: 40px;
+	}
+	.about-section .image-holder img{
+		margin-left: 0px!important;
+		width: 100%;
+	}
+	.service-form form button{
+		margin-left: 0px!important;
+	}
+	.fact-counter .column .item{
+		margin-bottom: 40px;
+	}
+	.service-details .service-menu{
+		margin-bottom: 40px;
+	}
+	.footer-top .menu-link{
+		margin-left: 0px !important;
+	}
+	.footer-top .contact-links{
+		margin-left: 0px !important;
+	}
+	.error-section .image-box img {
+	    margin-left: 20%!important;
+	    margin-bottom: 40px;
+	}
+	.contact-section .section-title{
+		margin-left: 0px!important;
+	}
+	.contact-section .contact-form{
+		margin-left: 0px!important;
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.main-header .main-menu {
+	    top: 0px;
+	    width: 100%;
+	}
+	.main-header .header-area{
+		padding: 0px 15px !important;
+	}
+	.main-menu .navbar-header{
+		position:relative;
+		float:none;
+		display: block;
+		text-align: right;
+		width:100%;
+		padding:12px 0px;
+		right:0px;
+		z-index:12;
+	}
+	.main-menu .navbar-header .navbar-toggle {
+	    display: block;
+	    border: 1px solid #ffffff;
+	    float: left;
+	    height: 50px;
+	    width: 50px;
+	    padding-left: 12px;
+	    text-align: center;
+	    margin: 0px 0px 0px 0px;
+	    border-radius: 0px;
+	    background: #343742;
+	}	
+	.main-menu .navbar-header .navbar-toggle .icon-bar{
+		background:#ffffff;	
+	}	
+	.main-menu .navbar-collapse > .navigation{
+		float:none !important;
+		margin:0px !important;
+		width:100% !important;
+		background: #343742;
+		border:1px solid #ffffff;
+		border-top:none;
+	}	
+	.main-menu .navbar-collapse > .navigation > li{
+		margin:0px !important;
+		float:none !important;
+		width:100%;
+	}	
+	.main-menu .navigation > li > a,
+	.main-menu .navigation > li > ul:before{
+		border:none;	
+	}	
+	.main-menu .navbar-collapse > .navigation > li > a{
+		padding:10px 10px !important;
+		border:none !important;
+	}	
+	.main-menu .navigation li.dropdown > a:after,
+	.main-menu .navigation > li.dropdown > a:before,
+	.main-menu .navigation > li > ul > li > a::before,
+	.main-menu .navigation > li > ul > li > ul > li > a::before{
+		color:#ffffff !important;
+		right:15px;
+		font-size:16px;
+		display:none !important;
+	}	
+	.main-menu .navbar-collapse > .navigation > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+		position:relative;
+		border:none;
+		float:none;
+		visibility:visible;
+		opacity:1;
+		display:none;
+		margin:0px;
+		left:auto !important;
+		right:auto !important;
+		top:auto !important;
+		width:100%;
+		background:#e4b700;
+		-webkit-border-radius:0px;
+		-ms-border-radius:0px;
+		-o-border-radius:0px;
+		-moz-border-radius:0px;
+		border-radius:0px;
+		transition:none !important;
+		-webkit-transition:none !important;
+		-ms-transition:none !important;
+		-o-transition:none !important;
+		-moz-transition:none !important;
+	}		
+	.main-menu .navbar-collapse > .navigation > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul{
+		border-top:1px solid rgba(255,255,255,1) !important;	
+	}	
+	.main-menu .navbar-collapse > .navigation > li,
+	.main-menu .navbar-collapse > .navigation > li > ul > li,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li{
+		border-top:1px solid rgba(255,255,255,1) !important;
+		opacity:1 !important;
+		top:0px !important;
+		left:0px !important;
+		visibility:visible !important;
+	}	
+	.main-menu .navbar-collapse > .navigation > li:first-child{
+		border:none;	
+	}	
+	.main-menu .navbar-collapse > .navigation > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
+		padding:15px 10px !important;
+		line-height:22px;
+		color:#ffffff;
+		background: #343742;
+		text-align: left;
+	}	
+	.main-menu .navbar-collapse > .navigation > li > a:hover,
+	.main-menu .navbar-collapse > .navigation > li > a:active,
+	.main-menu .navbar-collapse > .navigation > li > a:focus{
+		background: #1cc9ce;
+	}	
+	.main-menu .navbar-collapse > .navigation > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li.current > a,
+	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
+		background: #ff6600;
+		color: #fff !important;
+	}
+	.main-menu .navbar-collapse > .navigation li.dropdown:after,
+	.main-menu .navigation > li > ul:before{
+		display:none !important;	
+	}
+	.main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn {
+	    display: block;
+	    position: absolute;
+	    right: 15px;
+	    top: 12px;
+	    color: #ffffff;
+	}
+	.main-menu .navbar-collapse > .navigation li.current .dropdown-btn,
+	.main-menu .navbar-collapse > .navigation li:hover .dropdown-btn{
+		color: #ffffff;
+	}
+	.team-section .image-holder .image-background:before{
+		height: 220px!important;
+	}
+	.header-top .logo{
+		float: none !important;
+		text-align: center !important;
+	}
+	.main-header .header-area .search-box{
+		margin-top: 10px!important;
+		margin-right: 15px;
+	}
+	.main-header {
+	    top: 225px !important;
+	}
+	.fixed-header{
+		top: 0px!important;
+	}
+	.header-top .contact-links{
+		float: none!important;
+	}
+	.header-top .contact-links li{
+		display: block !important;
+		padding-bottom: 10px !important;
+		margin-left: 0px !important;
+	}
+	
+}
+@media only screen and (max-width: 600px){
+
+}
+@media only screen and (max-width: 500px){
+
+}
+@media only screen and (max-width: 350px){
+	
+}
+
